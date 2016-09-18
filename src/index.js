@@ -1,7 +1,7 @@
 'use strict';
 var Alexa = require('alexa-sdk');
 
-var APP_ID = "amzn1.ask.skill.7c4bb79f-9932-4494-bf6f-ebb047eb2eab"; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
+var APP_ID = "amzn1.ask.skill.1b825413-139f-474d-bd42-7cf2d0d809af"; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
 var SKILL_NAME = 'San Francisco Facts';
 
 /**
@@ -24,7 +24,7 @@ var FACTS = [
 "San Francisco citizen Joshua Abraham Norton self-declared himself the Emperor of the United States in 1859 and everyone just went with it.",
 "The San Francisco International Airport is supported by 267 columns that each rest on a steel ball bearing, allowing the ground to move 20 inches in any direction during an earthquake.",
 "San Francisco was originally called Yerba Buena back in 1835, which is Spanish for Good Herb. While this referred to a fragrant plant that grew native to the shoreline, some might say it could apply to…other herbs.",
-"Much of San Francisco is built on top of old Gold Rush ships."
+"Much of San Francisco is built on top of old Gold Rush ships.",
 "On Mar. 21, 1963, Alcatraz federal prison island in San Francisco Bay was emptied of its last inmates at the order of Attorney General Robert F. Kennedy.",
 "Behind New York, Moscow and London, San Francisco is 4th in the world in terms of numbers of billionaires living within its city limits, while having less than 10% the population of the the other three cities.",
 "Denim jeans were invented in San Francisco for the Gold Rush miners who needed tough, comfortable clothing",
@@ -82,12 +82,12 @@ var handlers = {
         var randomFact = FACTS[factIndex];
 
         // Create speech output
-        var speechOutput = "Here's your Game of Thrones fact: " + randomFact;
+        var speechOutput = "Here's your san francisco fact: " + randomFact;
 
         this.emit(':tellWithCard', speechOutput, SKILL_NAME, randomFact)
     },
     'AMAZON.HelpIntent': function () {
-        var speechOutput = "You can say tell me a Game of Thrones fact, or, you can say exit... What can I help you with?";
+        var speechOutput = "You can say tell me a san francisco fact, or, you can say exit... What can I help you with?";
         var reprompt = "What can I help you with?";
         this.emit(':ask', speechOutput, reprompt);
     },
