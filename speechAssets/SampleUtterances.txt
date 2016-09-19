@@ -1,22 +1,14 @@
 GetNewFactIntent a fact
-GetNewFactIntent a sf fact
+GetNewFactIntent a san francisco fact
 GetNewFactIntent tell me a fact
-GetNewFactIntent tell me a sf fact
+GetNewFactIntent tell me a san francisco fact
 GetNewFactIntent give me a fact
-GetNewFactIntent give me a sf fact
+GetNewFactIntent give me a san francisco fact
 GetNewFactIntent tell me trivia
-GetNewFactIntent tell me a sf trivia
+GetNewFactIntent tell me a san francisco trivia
 GetNewFactIntent give me trivia
-GetNewFactIntent give me a sf trivia
+GetNewFactIntent give me a san francisco trivia
 GetNewFactIntent give me some information
-GetNewFactIntent give me some sf information
+GetNewFactIntent give me some san francisco information
 GetNewFactIntent tell me something
 GetNewFactIntent give me something
-GetNewFactIntent sf fact
-GetNewFactIntent a san francisco fact
-GetNewFactIntent tell me a san francisco fact
-GetNewFactIntent give me a san francisco fact
-GetNewFactIntent tell me a san francisco trivia
-GetNewFactIntent give me a san francisco trivia
-GetNewFactIntent give me some san francisco information
-GetNewFactIntent san francisco fact
